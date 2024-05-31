@@ -38,6 +38,11 @@ public class ArrowKeys1 {
 			act.sendKeys(Keys.ARROW_UP).perform();
 		}
 		act.sendKeys(Keys.ENTER).perform();
+		
+		act.sendKeys(Keys.PAGE_DOWN).build().perform();
+		
+		
+		act.sendKeys(Keys.PAGE_UP).build().perform();
 
 	}
 
