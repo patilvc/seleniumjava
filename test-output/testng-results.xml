@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser opening done]]>
+    </line>
+    <line>
+      <![CDATA[flipcart website opened]]>
+    </line>
+    <line>
+      <![CDATA[login done succesfully ]]>
+    </line>
+    <line>
+      <![CDATA[User verified on Home page  ]]>
+    </line>
+    <line>
+      <![CDATA[flipcart website opened]]>
+    </line>
+    <line>
+      <![CDATA[Hi Pune  ]]>
+    </line>
+    <line>
+      <![CDATA[User verified on Home page  ]]>
+    </line>
+    <line>
+      <![CDATA[Logout done succesfully  ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-06T08:56:11 IST" name="Default suite" finished-at="2024-06-06T08:56:11 IST" duration-ms="261">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T08:56:11 IST" name="Default test" finished-at="2024-06-06T08:56:11 IST" duration-ms="261">
+      <class name="testNG.TestNG2">
+        <test-method is-config="true" signature="Browseropening()[pri:0, instance:testNG.TestNG2@4d1c005e]" started-at="2024-06-06T08:56:11 IST" name="Browseropening" finished-at="2024-06-06T08:56:11 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser opening done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Browseropening -->
+        <test-method is-config="true" signature="Openwebsite()[pri:0, instance:testNG.TestNG2@4d1c005e]" started-at="2024-06-06T08:56:11 IST" name="Openwebsite" finished-at="2024-06-06T08:56:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[flipcart website opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Openwebsite -->
+        <test-method signature="Loginapp()[pri:0, instance:testNG.TestNG2@4d1c005e]" started-at="2024-06-06T08:56:11 IST" name="Loginapp" finished-at="2024-06-06T08:56:11 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login done succesfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Loginapp -->
+        <test-method is-config="true" signature="Verifyuser()[pri:0, instance:testNG.TestNG2@4d1c005e]" started-at="2024-06-06T08:56:11 IST" name="Verifyuser" finished-at="2024-06-06T08:56:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User verified on Home page  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verifyuser -->
+        <test-method is-config="true" signature="Openwebsite()[pri:0, instance:testNG.TestNG2@4d1c005e]" started-at="2024-06-06T08:56:11 IST" name="Openwebsite" finished-at="2024-06-06T08:56:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[flipcart website opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Openwebsite -->
+        <test-method signature="Loginapp1()[pri:0, instance:testNG.TestNG2@4d1c005e]" started-at="2024-06-06T08:56:11 IST" name="Loginapp1" finished-at="2024-06-06T08:56:11 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hi Pune  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Loginapp1 -->
+        <test-method is-config="true" signature="Verifyuser()[pri:0, instance:testNG.TestNG2@4d1c005e]" started-at="2024-06-06T08:56:11 IST" name="Verifyuser" finished-at="2024-06-06T08:56:11 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User verified on Home page  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verifyuser -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:testNG.TestNG2@4d1c005e]" started-at="2024-06-06T08:56:11 IST" name="Logout" finished-at="2024-06-06T08:56:11 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout done succesfully  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- testNG.TestNG2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

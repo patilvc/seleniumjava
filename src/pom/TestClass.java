@@ -1,7 +1,12 @@
 package pom;
 
+import java.time.Duration;
+
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TestClass {
 
@@ -19,11 +24,16 @@ public class TestClass {
 		LP.password();
 		Thread.sleep(1000);
 		LP.submitbutton();
-		
 		HomePage HP= new HomePage(driver);
-		driver.navigate().refresh();
-		Thread.sleep(1500);
-		driver.navigate().refresh();
+		
+		WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(20));
+		wait.until(ExpectedConditions.alertIsPresent());
+		
+		
+		
+		Alert alert = driver.switchTo().alert();
+		alert.accept();
+		
 		HP.checkUserText();
 		
 		

@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 public class LoginPageSauce {
 	
@@ -33,7 +35,7 @@ public class LoginPageSauce {
 
 		Password.sendKeys("secret_sauce");
 	}
-	
+
 	public void submitButton() {
 
 		Submit.click();;

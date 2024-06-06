@@ -1,5 +1,6 @@
 package pom;
 
+import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,13 +14,15 @@ public class HomePage {
 	
 	public HomePage(WebDriver driver) {
 		
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements( driver, this);
 	}
 	
 	
     public void checkUserText() {
     	
     	String a="Vaibhav Patil";
+    	
+    	
     	
     	String b=UserText.getText();
     	
