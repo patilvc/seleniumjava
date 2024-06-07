@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TestNG2 {
+public class TestNG2Annotation {
 	
 
 	@AfterClass
