@@ -24,7 +24,7 @@ public class HomePageSauce {
 		String a=Item1.getText();
 		
 		
-		if (a.equals("Abc")) {
+		if (a.equals("Sauce Labs Backpack")) {
 			
 			
 			System.out.println("Test case Pass");
